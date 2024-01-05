@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="scrimba, css, html, js, java script, 100 days of code, boxing, free code camp, per harold borgen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Item Count</title>
+</head>
+<body>
+    
+        <div class="title txt-center"><h1 class="txt-lg">Item Count</h1></div>
+        <div class="container">
+            <div class="main-section">      
+                <div class="item">
+                    <h3 class="left-H3">Items</h3>      
+                    <div class="box-lg challenger-score-box" id="punch-el">0</div>
+                    <button class="btn btn-dark add-btn" onclick="add()">COUNT</button>
+                </div>           
+            </div>
+            <div class="para">
+                <p id="save-el">Previous Count: </p>
+            </div>
+            
+            <div class="bottom-section">
+                <button class="btn btn-green" onclick="previous()">Sum Items <i class="fa-solid fa-calculator fa-xl"></i></button>
+
+                <div class= "box-lg">
+                    <div class="inner-box"><p class="txt-sm">Total</p><span id="sum-el">0</span></div>
+                </div>
+            </div>            
+        </div>
+    
+    <footer id="footer">Copyright &copy; 2024 Pennington Programming
+        <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i> @EmmettPenn23</a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
