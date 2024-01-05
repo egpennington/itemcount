@@ -43,17 +43,6 @@ body::before {
     z-index: -2;
 }
 
-/* body {
-    background: #f4f4f4;
-    background-image: url("https://images.pexels.com/photos/6368833/pexels-photo-6368833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-shadow: 2px 2px 5px #333;
-    height: 100vh;
-    user-select: none;
-} */
-
 /* utilities */
 .txt-lg { text-transform: uppercase; }
 
@@ -64,6 +53,8 @@ body::before {
 .txt-center {
     text-align: center;
 }
+
+.txt-mr-20 { margin-right: 20px; }
 
 a {
     text-decoration: none;
@@ -114,6 +105,12 @@ a:hover {
     color: var(--light-color);
     height: 80px;
     width: 200px;
+}
+
+.btn-reset {
+    height: 50px;
+    width: 250px;
+    box-shadow: 2px 2px 2px #333;
 }
 
 .bottom-section {
